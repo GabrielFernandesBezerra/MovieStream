@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MovieStream - Inicio</title>
+    <title>MovieStream</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,8 +18,23 @@
         <br>
         <input type="phonenumber" placeholder="Número de Telefone" id="Número de Telefone">
         <br>
-        <input type="submit" onclick="confirmar" (); return false>
+        <input type="submit" onclick="logar" (); Return false>
     </form>
     </div>
+
+       <script>
+        function logar () {
+            var login=admin.getElementById('login').value;
+            var senha=admin.getElementById('senha').value;
+            var email=admin.getElementById('login').value;
+            var Telefone=admin.getElementById('senha').value;
+            if (login="admin" & senha=="admin") {        
+                alert ('sucesso');
+                location.href="home.html";
+           }else {
+                 alert ('usuario ou senha incorretos');
+        }
+    }
+    </script>
 </body>
 </html>

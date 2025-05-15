@@ -1,0 +1,15 @@
+#Up {
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    .lupa {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    }
+    .dbsbroly {
+        width: 2000px;
+        height: 1000px;
+    }
+}
