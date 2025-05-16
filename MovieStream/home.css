@@ -4,12 +4,21 @@
     right: 0px;
     top: 0px;
     .lupa {
-    width: 21px;
-    height: 21px;
+    width: 30px;
+    height: 30px;
     position: absolute;
+    right: 1025px;
+    }
+    .pesquisa {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        right: 1000px;
     }
     .dbsbroly {
-        width: 2000px;
-        height: 1000px;
+        position: absolute;
+        right: 90px;
+        width: 800px;
+        height: 400px;
     }
 }
