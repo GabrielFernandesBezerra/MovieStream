@@ -1,24 +1,43 @@
 #Up {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(37, 37, 37);
     position: absolute;
     right: 0px;
     top: 0px;
+    width: 1500px;
+    height: 600px;
     .lupa {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    right: 1025px;
+    top: 13px;
+    left: 280px;
+    }
+    .lupa2 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: rgb(128, 128, 128);
     }
     .pesquisa {
-        width: 300px;
+        width: 290px;
         height: 40px;
         position: absolute;
-        right: 1000px;
+        right: 1160px;
+        top: 10px;
+        font-size: 155%;
+        font-family: fantasy;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: grey;
+        letter-spacing: 2q;
     }
-    .dbsbroly {
+    .thebatman {
+        height: 500px;
+        width: 1250;
         position: absolute;
-        right: 90px;
-        width: 800px;
-        height: 400px;
+        right: 300px;
+        top: 72px;
     }
 }
