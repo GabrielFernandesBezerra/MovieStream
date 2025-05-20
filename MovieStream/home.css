@@ -3,8 +3,8 @@
     position: absolute;
     right: 0px;
     top: 0px;
-    width: 1500px;
-    height: 600px;
+    width: 90%;
+    height: 70%;
     .lupa {
     width: 35px;
     height: 35px;
@@ -24,7 +24,7 @@
         width: 290px;
         height: 40px;
         position: absolute;
-        right: 1160px;
+        left: 50px;
         top: 10px;
         font-size: 155%;
         font-family: fantasy;
@@ -34,10 +34,19 @@
         letter-spacing: 2q;
     }
     .thebatman {
-        height: 500px;
-        width: 1250;
+        height: 80%;
+        width: 65%;
         position: absolute;
         right: 300px;
         top: 72px;
     }
+    .texto {
+        position: absolute;
+        top: 0px;
+        right: 650px;
+        height: 10;
+    }
+    
+
 }
+
