@@ -9,6 +9,7 @@
 <body>
     <section id="Up">
         <div class="imagem">
+            <h1 class="texto">MOVIESTREAM</h1>
             <form>
                   <input  class="pesquisa" type="search" placeholder="Pesquisar..."> 
             <button class="lupa" type="submit" onclick="enviar(); return false;">
@@ -18,14 +19,40 @@
             <img src="https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png" class="thebatman">
         </div>    
     </section>
-    <section class="latelal">
-        
-
-
-
-
-
+    <section id="latelal">
+        <button  class="HBO" type="submit" onclick="DC()"; >
+       <img src="https://i.pinimg.com/736x/8b/02/00/8b020050690f955ccb306cdf51324aea.jpg" class="HBO">
+    </button>
+        <button  class="manga" type="submit" onclick="anime()">
+       <img src="https://i.pinimg.com/736x/72/35/ba/7235ba62efd6ce86851b6eb6d5536c83.jpg" class="manga">
+    </button>
+  <button  class="LIVEANDLEARN" type="submit" onclick="jogos()">
+       <img src="https://storage.modworkshop.net/mods/images/18475_1604347736_c8131ac0a527c8dd4fc014559e73a8d3.png" class="LIVEANDLEARN">
+  </button>
+  <button  class="marvel" type="submit" onclick="marvel()">
+       <img src="https://assets.murphysmultiverse.com/uploads/2024/10/marvel-logo-design-history-and-evolution-kreafolk_50f7a4b8-dc53-495d-89bc-84c168382b61.jpg"  class="marvel">
+    </button>
+     <button  class="Humor-e-piadas" type="submit" onclick="Comedia()">
+       <img src="https://i.pinimg.com/736x/b5/4e/6d/b54e6d943b623077a25278abda68664d.jpg"  class="Humor-e-piadas">
+    </button>
     </section>
+<script>
+    function anime() {
+        location.href="anime.html"
+    }
+    function DC() {
+         location.href="DC.html"
+    }
+    function jogos() {
+         location.href="jogos.html"
+    }
+      function marvel() {
+         location.href="marvel.html"
+    }
+    function Comedia() {
+         location.href="comedia.html"
+    }
+</script>
     
 </body>
 </html>
