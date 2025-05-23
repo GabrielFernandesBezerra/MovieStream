@@ -27,7 +27,7 @@
         width: 290px;
         height: 40px;
         position: absolute;
-        left: 50px;
+        left: 80px;
         top: 10px;
         font-size: 155%;
         font-family: fantasy;
@@ -40,7 +40,7 @@
         height: 80%;
         width: 70%;
         position: absolute;
-        right: 250px;
+        right: 220px;
         top: 72px;
     }
     .texto {
