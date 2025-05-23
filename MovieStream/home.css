@@ -1,17 +1,19 @@
-
 #Up {
     background-color: rgb(37, 37, 37);
     position: absolute;
     right: 0px;
     top: 0px;
     width: 90%;
-    height: 70%;
+    height: 80%;
     .lupa {
     width: 35px;
     height: 35px;
     position: absolute;
     top: 13px;
     left: 280px;
+    }
+    .lupa :hover {
+          cursor: pointer;
     }
     .lupa2 {
     width: 36px;
@@ -36,7 +38,7 @@
     }
     .banner {
         height: 80%;
-        width: 65%;
+        width: 70%;
         position: absolute;
         right: 250px;
         top: 72px;
@@ -51,6 +53,7 @@
         letter-spacing: 20q;
     }
 }
+
 #latelal {
     position: fixed;
     left: 0px;
@@ -124,37 +127,340 @@
 
 #Filmes {
     position: absolute;
-    top: 610px;
+    top: 695px;
     left: 165px;
-    width: 90%;
+    width: 91%;
     height: 500%;
     background-color: rgb(34, 51, 68);
 
 .thebatman {
     position: absolute;
-    top: 20px;
-    left: 10px;
-    width: 300px;
-    height: 400px;
+    top: 100px;
+    left: 70px;
+    width: 400px;
+    height: 500px;
+}
+.thebatman :hover {
+    cursor: pointer;
+        width: 410px;
+        height: 510px;
+}
+.obatman {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 400px;
+    height: 500px;
 }
 .manofsteel {
     position:absolute;
-    top: 20px;
+    top: 100px;
     right: 50px;
-    width: 320px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
+}
+.manofsteel :hover {
+    cursor: pointer;
+        width: 360px;
+        height: 510px;
+}
+.homemdeaço {
+    position:absolute;
+    top: -2px;
+    right: -2px;
+    width: 350px;
+    height: 500px;
 }
 .Mulhermaravilha{
 position: absolute;
-top: 20px;
-left: 600px;
-width: 320px;
-height: 400px;
+top: 100px;
+left: 580px;
+width: 420px;
+height: 500px;
  }
  .Mulhermaravia{
-   width: 320px;
-height: 400px;
-left: -10px;
-top: -50px;
+width: 420px;
+height: 500px;
+position: absolute;
+left: -2px;
+top: -2px;
  }
+ .Mulhermaravilha :hover {
+      cursor: pointer;
+        width: 430px;
+        height: 510px;
+ }
+.anime {
+ position: absolute;
+ top: 650px;
+width: 100%;
+height: 750px;
+background-color: rgb(104, 71, 0);
+
+.DBZ {
+    position: absolute;
+top: -2px;
+left: -2px;
+width: 420px;
+height: 600px;
+}
+.Z :hover {
+    cursor: pointer;
+        width: 430px;
+        height: 610px;
+}
+
+.Z {
+width: 420px;
+height: 600px;
+position: absolute;
+left: 580px;
+top: 50px;
+}
+
+.BNK {
+position: absolute;
+top: -2px;
+left: -2px;
+width: 400px;
+height: 600px;
+}
+
+.boku {
+position: absolute;
+top: 50px;
+left: 70px;
+width: 400px;
+height: 600px;
+}
+.boku :hover {
+    cursor: pointer;
+        width: 410px;
+        height: 610px;
+}
+
+.JJK {
+position: absolute;
+top: -2px;
+right: -2px;
+width: 385px;
+height: 600px;
+}
+
+.Jujutsukaisen {
+position: absolute;
+top: 50px;
+right: 35px;
+width: 385px;
+height: 600px;
+}
+.Jujutsukaisen :hover {
+    cursor: pointer;
+        width: 395px;
+        height: 610px;
+}
+
+}
+.jogos {
+ position: absolute;
+ top: 1500px;
+width: 100%;
+height: 750px;
+background-color: rgb(114, 0, 0);
+
+.sonic {
+position: absolute;
+top: 50px;
+left: 70px;
+width: 400px;
+height: 600px;
+}
+.sonic :hover {
+    cursor: pointer;
+        width: 410px;
+        height: 610px;
+}
+.LIVEANDLEARN {
+position: absolute;
+top: -2px;
+left: -2px;
+width: 400px;
+height: 600px;
+}
+
+.arMario {
+width: 420px;
+height: 600px;
+position: absolute;
+left: 580px;
+top: 50px;
+}
+.arMario :hover {
+    cursor: pointer;
+        width: 430px;
+        height: 610px;
+}
+.Mario {
+    position: absolute;
+top: -2px;
+left: -2px;
+width: 420px;
+height: 600px;
+}
+
+.Minecraft {
+position: absolute;
+top: 50px;
+right: 35px;
+width: 385px;
+height: 600px;
+}
+.Minecraft :hover {
+    cursor: pointer;
+        width: 395px;
+        height: 610px;
+}
+.Mine {
+position: absolute;
+top: -2px;
+right: -2px;
+width: 385px;
+height: 600px;
+}
+}
+.Marvel {
+position: absolute;
+  top: 2350px;
+width: 100%;
+height: 750px;
+background-color: rgb(16, 15, 107);
+
+.VingadoresUltimato {
+width: 420px;
+height: 600px;
+position: absolute;
+left: 580px;
+top: 50px;
+}
+.VingadoresUltimato :hover {
+    cursor: pointer;
+        width: 430px;
+        height: 610px;
+}
+}
+.Ultimato {
+position: absolute;
+top: -2px;
+left: -2px;
+width: 420px;
+height: 600px;
+}
+
+.MiranhasSemCasa {
+    position: absolute;
+top: 50px;
+left: 70px;
+width: 400px;
+height: 600px;
+}
+.MiranhasSemCasa :hover {
+    cursor: pointer;
+        width: 410px;
+        height: 610px;
+}
+.MiranhaSemCasa {
+position: absolute;
+top: -2px;
+left: -2px;
+width: 400px;
+height: 600px;
+}
+
+.AranhaVerso {
+position: absolute;
+top: 50px;
+right: 35px;
+width: 385px;
+height: 600px;
+}
+.AranhaVerso :hover {
+    cursor: pointer;
+        width: 395px;
+        height: 610px;
+}
+.Spiderverse {
+position: absolute;
+top: -2px;
+right: -2px;
+width: 385px;
+height: 600px;
+}
+
+}
+.piadista {
+ position: absolute;
+ top: 3200px;
+width: 100%;
+height: 750px;
+background-color: rgb(129, 127, 2);
+
+.maskara {
+position: absolute;
+top: 50px;
+left: 70px;
+width: 400px;
+height: 600px;
+}
+.maskara :hover {
+    cursor: pointer;
+        width: 410px;
+        height: 610px;
+}
+.mask {
+position: absolute;
+top: -2px;
+left: -2px;
+width: 400px;
+height: 600px;
+}
+
+.OPaizao {
+width: 420px;
+height: 600px;
+position: absolute;
+left: 580px;
+top: 50px;
+}
+.OPaizao :hover {
+    cursor: pointer;
+        width: 430px;
+        height: 610px;
+}
+.paizao {
+    position: absolute;
+top: -2px;
+left: -2px;
+width: 420px;
+height: 600px;
+}
+
+.aceventura1 {
+position: absolute;
+top: 50px;
+right: 35px;
+width: 385px;
+height: 600px;
+}
+.aceventura1 :hover {
+    cursor: pointer;
+        width: 395px;
+        height: 610px;
+}
+.ventura1 {
+position: absolute;
+top: -2px;
+right: -2px;
+width: 385px;
+height: 600px;
+}
 }
