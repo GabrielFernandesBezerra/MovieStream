@@ -10,7 +10,7 @@
     height: 35px;
     position: absolute;
     top: 13px;
-    left: 280px;
+    left: 380px;
     }
     .lupa :hover {
           cursor: pointer;
@@ -27,7 +27,7 @@
         width: 290px;
         height: 40px;
         position: absolute;
-        left: 80px;
+        left: 180px;
         top: 10px;
         font-size: 155%;
         font-family: fantasy;
@@ -40,7 +40,7 @@
         height: 80%;
         width: 70%;
         position: absolute;
-        right: 220px;
+        right: 150px;
         top: 72px;
     }
     .texto {
