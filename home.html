@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmesFlow - Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <section id="Up">
+        <div class="imagem">
+            <h1 class="texto">FilmesFlow</h1>
+            <form>
+                  <input  class="pesquisa" type="search" placeholder="Pesquisar..."> 
+            <button title="Pesquisar" class="lupa" type="submit" onclick="enviar(); return false;">
+                <img class="lupa2" src="https://cdn.iconscout.com/icon/free/png-512/free-magnifying-glass-icon-download-in-svg-png-gif-file-formats--zoom-logo-search-find-symbols-vol-2-pack-sign-icons-4285441.png?f=webp&w=256">
+            </button>           
+        </form>
+            <img src="https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png" class="banner">
+        </div>    
+    </section>
+
+    <section id="latelal">
+        <button title="FIlmes da HBO" class="HBO" type="submit" onclick="DC()"; >
+       <img src="https://i.pinimg.com/736x/8b/02/00/8b020050690f955ccb306cdf51324aea.jpg" class="HBO">
+    </button>
+        <button title="Animes" class="manga" type="submit" onclick="anime()">
+       <img src="https://i.pinimg.com/736x/72/35/ba/7235ba62efd6ce86851b6eb6d5536c83.jpg" class="manga">
+    </button>
+  <button title="Filmes de Adaptações de Jogos" class="games" type="submit" onclick="jogos()">
+    <p title="jogos">jogos</p>
+       <img src="https://storage.modworkshop.net/mods/images/18475_1604347736_c8131ac0a527c8dd4fc014559e73a8d3.png" class="games">
+  </button>
+  <button title="Filmes da Marvel" class="marvel" type="submit" onclick="marvel()">
+       <img src="https://assets.murphysmultiverse.com/uploads/2024/10/marvel-logo-design-history-and-evolution-kreafolk_50f7a4b8-dc53-495d-89bc-84c168382b61.jpg"  class="marvel">
+    </button>
+     <button title="Filmes de Comédia" class="Humor-e-piadas" type="submit" onclick="Comedia()">
+       <img src="https://i.pinimg.com/736x/b5/4e/6d/b54e6d943b623077a25278abda68664d.jpg"  class="Humor-e-piadas">
+    </button>
+    </section>
+
+    <section id="Filmes">
+        <div class="OBH">
+            <h1>- HBO</h1>
+        <button  class="thebatman" type="submit" onclick="filmethebatman()" >
+       <img src="https://preview.redd.it/i-dont-know-why-but-i-find-myself-wanting-to-rewatch-the-v0-mg7a8punikte1.jpg?width=1080&crop=smart&auto=webp&s=d26ba9a405f52214370516495945f719f3aa46e7" class="obatman">
+    </button>
+
+        <button  class="manofsteel" type="submit" onclick="FilmedoManodemetal()">
+       <img src="https://media.fstatic.com/hmGZuP1icelA5Peq0_WV0bk8Yyg=/322x478/smart/filters:format(webp)/media/movies/covers/2018/08/O_Homem_de_A%C3%A7o.jpg" class="homemdeaço">
+    </button>
+
+  <button class="Mulhermaravilha" type="submit" onclick="muiemaravia()">
+    <img class="Mulhermaravia" src="https://cinepop.com.br/wp-content/uploads/2020/12/mulher-maravilha-4.jpg">
+  </button>
+        </div>
+
+            <div class="anime">
+                <h1>- Anime</h1>
+  <button  class="Z" type="submit" onclick="DBZ()">
+       <img src="https://static.wikia.nocookie.net/dublagem/images/6/6a/Dragon_Ball_Z.png/revision/latest?cb=20241216225338&path-prefix=pt-br"  class="DBZ">
+    </button>
+     <button  class="boku" type="submit" onclick="BNK()">
+       <img src="https://img.elo7.com.br/product/zoom/1E7C1E9/big-poster-anime-my-hero-academia-tamanho-90x-0-cm-lo007-geek.jpg"  class="BNK">
+    </button>
+        <button  class="Jujutsukaisen" type="submit" onclick="JJK()">
+       <img src="https://i0.wp.com/blogbbm.com/wp-content/uploads/2020/07/Jujutsu-kaisen.jpg?fit=614%2C900&ssl=1" class="JJK">
+    </button>
+            </div>
+
+            <div class="jogos">
+                <h1>- adaptações de jogos</h1>
+  <button class="sonic" type="submit" onclick="LIVEANDLEARN()">
+     <img src="https://uauposters.com.br/media/catalog/product/6/8/680920240909-uau-posters-sonic-3-filmes-1.jpg"  class="LIVEANDLEARN">
+    </button>
+     <button  class="arMario" type="submit" onclick="Mario()">
+       <img src="https://a-static.mlcdn.com.br/800x560/poster-cartaz-super-mario-bros-o-filme-i-pop-arte-poster/poparteskins2/16031341552/4b694e8367509fd69f3ae20dc1ec29bf.jpeg"  class="Mario">
+    </button>
+        <button  class="Minecraft" type="submit" onclick="minecraft()">
+       <img src="https://image.tmdb.org/t/p/original/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg" class="Mine">
+    </button>
+            </div>
+        </div>
+
+                <div class="Marvel">
+                    <h1>- Marvel</h1>
+  <button  class="VingadoresUltimato" type="submit" onclick="Ultimato()">
+       <img src="https://m.media-amazon.com/images/I/91J7VHbAwBL._AC_SL1500_.jpg"  class="Ultimato">
+    </button>
+     <button  class="MiranhasSemCasa" type="submit" onclick="NoWayHome()">
+       <img src="https://cdn.awsli.com.br/600x700/1610/1610163/produto/177685289/poster-homem-aranha-sem-volta-para-casa-c-04f319e2.jpg"  class="MiranhaSemCasa">
+    </button>
+        <button  class="AranhaVerso" type="submit" onclick="Aranhaverso()">
+       <img src="https://br.web.img3.acsta.net/pictures/18/12/05/16/28/3718855.jpg" class="Spiderverse">
+    </button>
+        </div>
+
+                <div class="piadista">
+                    <h1>- Comédia</h1>
+  <button  class="maskara" type="submit" onclick="Maskara()">
+       <img src="https://i.pinimg.com/originals/ad/cf/33/adcf33c523c3c02ceacdb2c0220778e6.webp"  class="mask">
+    </button>
+     <button  class="OPaizao" type="submit" onclick="paizao()">
+       <img src="https://br.web.img2.acsta.net/medias/nmedia/18/97/37/66/20525635.jpg"  class="paizao">
+    </button>
+        <button  class="aceventura1" type="submit" onclick="aceventura1()">
+       <img src="https://a-static.mlcdn.com.br/1500x1500/poster-cartaz-ace-ventura-um-detetive-diferente-pop-arte-poster/poparteskins2/15938512709/b2bdcbf7c8e3cffe0a40d9a43c57df93.jpeg" class="ventura1">
+    </button>
+        </div>
+ 
+    
+
+<script>
+    function anime() {
+        location.href="anime.html"
+    }
+    function DC() {
+         location.href="DC.html"
+    }
+    function jogos() {
+         location.href="jogos.html"
+    }
+      function marvel() {
+         location.href="marvel.html"
+    }
+    function Comedia() {
+         location.href="comedia.html"
+    }
+     function filmethebatman() {
+        location.href="thebatman.html"
+    }
+    function FilmedoManodemetal() {
+         location.href="manofsteel.html"
+    }
+    function muiemaravia() {
+         location.href="WonderWoman.html"
+    }
+      function DBZ() {
+         location.href="DBZ.html"
+    }
+    function BNK() {
+         location.href="BNK.html"
+    }
+     function JJK() {
+        location.href="JJK.html"
+    }
+    function LIVEANDLEARN() {
+         location.href="sonic3.html"
+    }
+    function Mario() {
+         location.href="mario.html"
+    }
+      function minecraft() {
+         location.href="Mine.html"
+    }
+    function Ultimato() {
+         location.href="ultimato.html"
+    }
+     function NoWayHome() {
+        location.href="Nowayhome.html"
+    }
+    function Aranhaverso() {
+         location.href="spiderverse.html"
+    }
+    function Maskara() {
+         location.href="mask.html"
+    }
+      function paizao() {
+         location.href="paizao.html"
+    }
+    function aceventura1() {
+         location.href="ventura.html"
+    }
+</script>
+    
+</body>
+</html>
