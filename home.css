@@ -1,7 +1,7 @@
 #Up {
     background-color: rgb(37, 37, 37);
     position: absolute;
-    right: -30px;
+    right: -2500px;
     top: 0px;
     width: 125%;
     height: 100%;
@@ -10,7 +10,7 @@
     height: 35px;
     position: absolute;
     top: 13px;
-    left: 380px;
+    left: 580px;
     }
     .lupa :hover {
           cursor: pointer;
@@ -27,7 +27,7 @@
         width: 290px;
         height: 40px;
         position: absolute;
-        left: 180px;
+        left: 500px;
         top: 10px;
         font-size: 155%;
         font-family: fantasy;
@@ -39,7 +39,9 @@
     .banner {
         height: 80%;
         width: 65%;
-        position: center;
+        position: absolute;
+        right: -900px;
+        
     }
     .texto {
         position: absolute;
