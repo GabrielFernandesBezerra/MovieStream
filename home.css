@@ -1,16 +1,19 @@
+*{
+    background-color: rgb(37, 37, 37);
+}
 #Up {
     background-color: rgb(37, 37, 37);
     position: absolute;
-    right: -2500px;
+    right: 0px;
     top: 0px;
-    width: 125%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     .lupa {
     width: 35px;
     height: 35px;
     position: absolute;
     top: 13px;
-    left: 580px;
+    left: 280px;
     }
     .lupa :hover {
           cursor: pointer;
@@ -27,7 +30,7 @@
         width: 290px;
         height: 40px;
         position: absolute;
-        left: 500px;
+        left: 50px;
         top: 10px;
         font-size: 155%;
         font-family: fantasy;
@@ -38,15 +41,15 @@
     }
     .banner {
         height: 80%;
-        width: 65%;
+        width: 70%;
         position: absolute;
-        right: -900px;
-        
+        right: 250px;
+        top: 72px;
     }
     .texto {
         position: absolute;
         top: -25px;
-        left: 490px;
+        left: 370px;
         height: 10;
         font-size: 275%;
         color: rgb(255, 255, 255);
@@ -133,6 +136,7 @@
     height: 500%;
     background-color: rgb(34, 51, 68);
 
+
 .thebatman {
     position: absolute;
     top: 100px;
@@ -155,7 +159,7 @@
 .manofsteel {
     position:absolute;
     top: 100px;
-    right: 20px;
+    right: 200px;
     width: 350px;
     height: 500px;
 }
@@ -250,7 +254,7 @@ height: 600px;
 .Jujutsukaisen {
 position: absolute;
 top: 50px;
-right: 35px;
+right: 200px;
 width: 385px;
 height: 600px;
 }
@@ -311,7 +315,7 @@ height: 600px;
 .Minecraft {
 position: absolute;
 top: 50px;
-right: 35px;
+right: 200px;
 width: 385px;
 height: 600px;
 }
@@ -379,7 +383,7 @@ height: 600px;
 .AranhaVerso {
 position: absolute;
 top: 50px;
-right: 35px;
+right: 200px;
 width: 385px;
 height: 600px;
 }
@@ -447,7 +451,7 @@ height: 600px;
 .aceventura1 {
 position: absolute;
 top: 50px;
-right: 35px;
+right: 200px;
 width: 385px;
 height: 600px;
 }
@@ -464,3 +468,4 @@ width: 385px;
 height: 600px;
 }
 }
+
