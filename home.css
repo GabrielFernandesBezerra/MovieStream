@@ -94,7 +94,7 @@
         top: 360px;
         width: 160px;
         height: 160px;
-        background-color: rgb(255, 217, 0);
+        background-color: green;
     }
     .games:hover {
         cursor: pointer;;
